@@ -1,0 +1,24 @@
+
+
+[Build a library]
+
+ - $ tar xfvz librhpbfltr-<version>.tgz
+ - $ cd librhpbfltr-<version>/librhpbfltr/build
+ - $ make all
+ - Copy the created library file (librhpbfltr.so) to a directory you like.
+
+
+  *** See rhp_bfilter.h for API usage.
+  
+
+[Build an example application]
+ 
+ - $ tar xfvz librhpbfltr-<version>.tgz
+ - $ cd librhpbfltr-<version>/example/build
+ - $ make all
+
+ - $ ./rhp_bfltr_ex      -- Exec an example code for rhp_bloom_filter_alloc().
+ 
+ - $ ./rhp_bfltr_ex ex   -- Exec an example code for rhp_bloom_filter_alloc_ex().
+ 
+ 
